@@ -1,1 +1,3 @@
-# learning-javascript
+# Learning JavaScript
+
+This repository has the documentation of JavaScript.
