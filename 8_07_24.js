@@ -55,7 +55,7 @@
 
 // you should develop logical behave -> strength or capability or capacity of doing a some tasks.
 
-// programming: behavior + task = functionality.
+// programming: behavior(computer program) + task(human request) = functionality(programming logic).
 
 // functional programming (small function): one function represents one single behavior.
 // objection oriented programming(class: big function): one function represents one single task, inside this one function will represent more small functions.
@@ -63,10 +63,10 @@
 // Modularization
 //import sumFun from "./11_08_24.js";
 
-// Tasks: summation two numbers.
+// Task: addition two numbers.
 
-export default function Sum(a, b) { // functional programming
-  return a - b; // subtraction
+function Sum(a, b) { // functional programming  
+  return a + b; // addition
 }
 
 let result = Sum(5, 4); // = 9
